@@ -1,0 +1,396 @@
+{
+    "moves": [
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\deepak1.pdf",
+            "destination": "D://dummy_testing\\Documents\\deepak1.pdf",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\deepak2.pdf",
+            "destination": "D://dummy_testing\\Documents\\deepak2.pdf",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\deepak3.pdf",
+            "destination": "D://dummy_testing\\Documents\\deepak3.pdf",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\deepak4.pdf",
+            "destination": "D://dummy_testing\\Documents\\deepak4.pdf",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\deepak_merged.pdf",
+            "destination": "D://dummy_testing\\Documents\\deepak_merged.pdf",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\Developer_Round_1.pdf",
+            "destination": "D://dummy_testing\\Documents\\Developer_Round_1.pdf",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\fa-01kannada-3rd.txt",
+            "destination": "D://dummy_testing\\Documents\\fa-01kannada-3rd.txt",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\group photo.jpg",
+            "destination": "D://dummy_testing\\Images\\group photo.jpg",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\hashnode.avif",
+            "destination": "D://dummy_testing\\Others\\hashnode.avif",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\hera-pheri_ahph.1248 (1).webp",
+            "destination": "D://dummy_testing\\Images\\hera-pheri_ahph.1248 (1).webp",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\hera-pheri_ahph.1248.webp",
+            "destination": "D://dummy_testing\\Images\\hera-pheri_ahph.1248.webp",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\inkbsignature.jpg",
+            "destination": "D://dummy_testing\\Images\\inkbsignature.jpg",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\KaverappaC K_InternshalaResume.pdf",
+            "destination": "D://dummy_testing\\Documents\\KaverappaC K_InternshalaResume.pdf",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\keaapplicationpd_3920200797508_09052025_082149.pdf",
+            "destination": "D://dummy_testing\\Documents\\keaapplicationpd_3920200797508_09052025_082149.pdf",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\math.jpg",
+            "destination": "D://dummy_testing\\Images\\math.jpg",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\merged.pdf",
+            "destination": "D://dummy_testing\\Documents\\merged.pdf",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\my img.jpg",
+            "destination": "D://dummy_testing\\Images\\my img.jpg",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\neutra.jpg",
+            "destination": "D://dummy_testing\\Images\\neutra.jpg",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\PDF Scanner 28-08-24 2.58.41 devaiah.pdf",
+            "destination": "D://dummy_testing\\Documents\\PDF Scanner 28-08-24 2.58.41 devaiah.pdf",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\Pedro_Ringtone_Prank_pedropedropedropedro_pedro_rington_kZwEzAWAhfk.mp3",
+            "destination": "D://dummy_testing\\Audio\\Pedro_Ringtone_Prank_pedropedropedropedro_pedro_rington_kZwEzAWAhfk.mp3",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\Ph\u00e1o_2_Ph\u00fat_H\u01a1n_KAIZ_Remix___AL4IwHuHlY_140.mp3",
+            "destination": "D://dummy_testing\\Audio\\Ph\u00e1o_2_Ph\u00fat_H\u01a1n_KAIZ_Remix___AL4IwHuHlY_140.mp3",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\PROTECTECD FILE.pdf",
+            "destination": "D://dummy_testing\\Documents\\PROTECTECD FILE.pdf",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\Raghav_Desperado_feat._Tesher_Official_Video___BWhdHDN8HY_140.mp3",
+            "destination": "D://dummy_testing\\Audio\\Raghav_Desperado_feat._Tesher_Official_Video___BWhdHDN8HY_140.mp3",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\resume (1)-.pdf",
+            "destination": "D://dummy_testing\\Documents\\resume (1)-.pdf",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\resume (1).pdf",
+            "destination": "D://dummy_testing\\Documents\\resume (1).pdf",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\RESUME.pdf",
+            "destination": "D://dummy_testing\\Documents\\RESUME.pdf",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\resume4_up.pdf",
+            "destination": "D://dummy_testing\\Documents\\resume4_up.pdf",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\resume__01__updated.pdf",
+            "destination": "D://dummy_testing\\Documents\\resume__01__updated.pdf",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-52",
+            "source": "D://dummy_testing\\sem1.pdf",
+            "destination": "D://dummy_testing\\Documents\\sem1.pdf",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-53",
+            "source": "D://dummy_testing\\sem2.pdf",
+            "destination": "D://dummy_testing\\Documents\\sem2.pdf",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-53",
+            "source": "D://dummy_testing\\sem3.pdf",
+            "destination": "D://dummy_testing\\Documents\\sem3.pdf",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-53",
+            "source": "D://dummy_testing\\sem4.pdf",
+            "destination": "D://dummy_testing\\Documents\\sem4.pdf",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-53",
+            "source": "D://dummy_testing\\ServicePlus- Application for BMTC Student Bus Pass 2024-25.pdf",
+            "destination": "D://dummy_testing\\Documents\\ServicePlus- Application for BMTC Student Bus Pass 2024-25.pdf",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-53",
+            "source": "D://dummy_testing\\Shots - Create Amazing Mockups.mhtml",
+            "destination": "D://dummy_testing\\Others\\Shots - Create Amazing Mockups.mhtml",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-53",
+            "source": "D://dummy_testing\\signature.jpg",
+            "destination": "D://dummy_testing\\Images\\signature.jpg",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-53",
+            "source": "D://dummy_testing\\signature2.jpg",
+            "destination": "D://dummy_testing\\Images\\signature2.jpg",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-53",
+            "source": "D://dummy_testing\\TALSE_TAL_MILAA.........._SONG_BOOSTED_JAILER_VINAYAKAN_mRyyQo979Qs_140.mp3",
+            "destination": "D://dummy_testing\\Audio\\TALSE_TAL_MILAA.........._SONG_BOOSTED_JAILER_VINAYAKAN_mRyyQo979Qs_140.mp3",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-53",
+            "source": "D://dummy_testing\\The_tutututututu_song_slowed_reverb_bass_boosted__VIB10hYH4gA_140.mp3",
+            "destination": "D://dummy_testing\\Audio\\The_tutututututu_song_slowed_reverb_bass_boosted__VIB10hYH4gA_140.mp3",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-53",
+            "source": "D://dummy_testing\\Tokyo_Drift_.m4a",
+            "destination": "D://dummy_testing\\Audio\\Tokyo_Drift_.m4a",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-53",
+            "source": "D://dummy_testing\\Untitled.ipynb",
+            "destination": "D://dummy_testing\\Others\\Untitled.ipynb",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-53",
+            "source": "D://dummy_testing\\Untitled.wfp",
+            "destination": "D://dummy_testing\\Others\\Untitled.wfp",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-53",
+            "source": "D://dummy_testing\\Untitled.wfpbundle",
+            "destination": "D://dummy_testing\\Others\\Untitled.wfpbundle",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-53",
+            "source": "D://dummy_testing\\Untitled.wpp",
+            "destination": "D://dummy_testing\\Others\\Untitled.wpp",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-53",
+            "source": "D://dummy_testing\\WhatsApp Image 2024-09-26 at 16.54.36_ac862c5b.jpg",
+            "destination": "D://dummy_testing\\Images\\WhatsApp Image 2024-09-26 at 16.54.36_ac862c5b.jpg",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-53",
+            "source": "D://dummy_testing\\WhatsApp Image 2024-09-28 at 15.10.43_57c25b02.jpg",
+            "destination": "D://dummy_testing\\Images\\WhatsApp Image 2024-09-28 at 15.10.43_57c25b02.jpg",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-53",
+            "source": "D://dummy_testing\\WhatsApp Image 2024-09-28 at 15.10.50_d7ad823c.jpg",
+            "destination": "D://dummy_testing\\Images\\WhatsApp Image 2024-09-28 at 15.10.50_d7ad823c.jpg",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-53",
+            "source": "D://dummy_testing\\WhatsApp Image 2025-01-09 at 12.54.07_8e4fdc21.jpg",
+            "destination": "D://dummy_testing\\Images\\WhatsApp Image 2025-01-09 at 12.54.07_8e4fdc21.jpg",
+            "error": null
+        },
+        {
+            "timestamp": "2025-05-28_11-57-53",
+            "source": "D://dummy_testing\\WhatsApp Image 2025-01-17 at 22.08.16_77d0a96c.jpg",
+            "destination": "D://dummy_testing\\Images\\WhatsApp Image 2025-01-17 at 22.08.16_77d0a96c.jpg",
+            "error": null
+        }
+    ],
+    "errors": [
+        {
+            "timestamp": "2025-05-30_19-54-59",
+            "source": "d://",
+            "destination": null,
+            "error": "Error finding duplicates: 'FileOrganizer' object has no attribute '_all_files'"
+        },
+        {
+            "timestamp": "2025-05-30_19-56-49",
+            "source": "d://",
+            "destination": null,
+            "error": "Error finding duplicates: 'FileOrganizer' object has no attribute '_all_files'"
+        },
+        {
+            "timestamp": "2025-05-30_20-29-55",
+            "source": "d://dummy_testing",
+            "destination": null,
+            "error": "Error finding duplicates: 'FileOrganizer' object has no attribute '_all_files'"
+        },
+        {
+            "timestamp": "2025-05-30_20-31-57",
+            "source": "d://dummy_testing",
+            "destination": null,
+            "error": "Error finding duplicates: 'FileOrganizer' object has no attribute '_all_files'"
+        },
+        {
+            "timestamp": "2025-05-30_20-32-24",
+            "source": "d://dummy_testing",
+            "destination": null,
+            "error": "Error finding duplicates: 'FileOrganizer' object has no attribute '_all_files'"
+        },
+        {
+            "timestamp": "2025-05-30_20-32-36",
+            "source": "d://dummy_testing",
+            "destination": null,
+            "error": "Error finding duplicates: 'FileOrganizer' object has no attribute '_all_files'"
+        },
+        {
+            "timestamp": "2025-05-30_20-33-36",
+            "source": "d://naruto",
+            "destination": null,
+            "error": "Error finding duplicates: 'FileOrganizer' object has no attribute '_all_files'"
+        },
+        {
+            "timestamp": "2025-05-30_20-34-03",
+            "source": "d://naruto",
+            "destination": null,
+            "error": "Error finding duplicates: 'FileOrganizer' object has no attribute '_all_files'"
+        },
+        {
+            "timestamp": "2025-05-30_20-34-06",
+            "source": "d://naruto",
+            "destination": null,
+            "error": "Error finding duplicates: 'FileOrganizer' object has no attribute '_all_files'"
+        },
+        {
+            "timestamp": "2025-05-30_20-34-08",
+            "source": "d://naruto",
+            "destination": null,
+            "error": "Error finding duplicates: 'FileOrganizer' object has no attribute '_all_files'"
+        },
+        {
+            "timestamp": "2025-05-30_20-35-44",
+            "source": "d://dummy_testing",
+            "destination": null,
+            "error": "Error finding duplicates: 'FileOrganizer' object has no attribute '_all_files'"
+        },
+        {
+            "timestamp": "2025-05-30_20-35-55",
+            "source": "d://naruto",
+            "destination": null,
+            "error": "Error finding duplicates: 'FileOrganizer' object has no attribute '_all_files'"
+        },
+        {
+            "timestamp": "2025-05-30_20-41-15",
+            "source": "d://dummy_testing",
+            "destination": null,
+            "error": "Error finding duplicates: 'FileOrganizer' object has no attribute '_all_files'"
+        },
+        {
+            "timestamp": "2025-05-30_20-41-18",
+            "source": "d://dummy_testing",
+            "destination": null,
+            "error": "Error finding duplicates: 'FileOrganizer' object has no attribute '_all_files'"
+        },
+        {
+            "timestamp": "2025-05-30_20-41-43",
+            "source": "d://dummy_testing",
+            "destination": null,
+            "error": "Error finding duplicates: 'FileOrganizer' object has no attribute '_all_files'"
+        },
+        {
+            "timestamp": "2025-05-30_20-42-35",
+            "source": "d://dummy_testing",
+            "destination": null,
+            "error": "Error finding duplicates: 'FileOrganizer' object has no attribute '_all_files'"
+        },
+        {
+            "timestamp": "2025-05-30_20-42-49",
+            "source": "d://dummy_testing",
+            "destination": null,
+            "error": "Error finding duplicates: 'FileOrganizer' object has no attribute '_all_files'"
+        }
+    ]
+}
