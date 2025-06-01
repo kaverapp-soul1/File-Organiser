@@ -7,8 +7,13 @@ import time
 
 from scripts.FileOrganizer import FileOrganizer
 from app.core.FileUtils import FileUtils
+from app.core.FileAnalyzer import FileAnalyzer
+from app.core.SecurityManager import SecurityManager
+import plotly.express as px
+import pandas as pd
 
 from typing import Tuple
+
 
 
 class StreamlitUI:
@@ -17,6 +22,8 @@ class StreamlitUI:
     def __init__(self):
         self.organizer = FileOrganizer()
         self.utils = FileUtils()
+        self.analyzer = FileAnalyzer()
+        self.security = SecurityManager()
         self._setup_page_config()
         self._apply_custom_styling()
     
@@ -96,6 +103,55 @@ class StreamlitUI:
     def render_header(self):
         """Render the main header."""
         st.title("📊 Professional File Organizer")
+        
+    def render_analysis(self, directory: str):
+        """Render analysis and reports section."""
+        st.header('📈 Storage Analysis')
+        
+        # Storage Usage Analysis
+        storage_usage = self.analyzer.analyze_storage_usage(directory)
+        usage_df = pd.DataFrame([
+            {'Category': cat, 'Size': size.split()[0]} # Extract numeric value
+            for cat, size in storage_usage.items()
+        ])
+        fig_storage = px.pie(usage_df, values='Size', names='Category',
+                            title='Storage Usage by Category')
+        st.plotly_chart(fig_storage)
+        
+        # File Distribution
+        st.header('📊 File Distribution')
+        distribution = self.analyzer.get_file_distribution(directory)
+        dist_df = pd.DataFrame([
+            {'Category': cat, 'Count': count}
+            for cat, count in distribution.items()
+        ])
+        fig_dist = px.bar(dist_df, x='Category', y='Count',
+                         title='Number of Files by Category')
+        st.plotly_chart(fig_dist)
+        
+        # Age Distribution
+        st.header('⏳ File Age Analysis')
+        age_dist = self.analyzer.get_age_distribution(directory)
+        age_df = pd.DataFrame([
+            {'Age Range': age, 'Count': len(files)}
+            for age, files in age_dist.items()
+        ])
+        fig_age = px.bar(age_df, x='Age Range', y='Count',
+                        title='Files by Age')
+        st.plotly_chart(fig_age)
+        
+        # Disk Space Report
+        st.header('💾 Disk Space Report')
+        space_report = self.analyzer.generate_disk_space_report(directory)
+        
+        col1, col2 = st.columns(2)
+        with col1:
+            st.metric('Total Space Used', space_report['total_space'])
+        
+        with col2:
+            st.subheader('Largest Files')
+            for file_path, size in space_report['largest_files'].items():
+                st.text(f'{os.path.basename(file_path)}: {size}')
         st.markdown("""
         <div style='text-align: center; margin-bottom: 2rem;'>
             <p style='font-size: 1.2rem; color: #7f8c8d; font-weight: 500;'>
@@ -369,22 +425,58 @@ class StreamlitUI:
             </div>
             """, unsafe_allow_html=True)
     
-    def run(self):
-        """Main application entry point."""
+    def render(self):
+        """Render the main interface."""
         self.render_header()
         
-        # Get configuration from sidebar
-        folder_path, flatten_structure, show_hidden = self.render_sidebar()
+        # Sidebar with directory input and security settings
+        with st.sidebar:
+            directory = st.text_input('Select Directory', '')
+            st.markdown('---')
+            
+            # Security Settings
+            # with st.expander('🔒 Security Settings'):
+            #     self.render_security_settings()
         
-        # Render main content and get button states
-        organize_button, undo_button = self.render_main_content(folder_path)
+        # Main content area
+        if directory and os.path.exists(directory):
+            col1, col2, col3 = st.columns(3)
+            
+            with col1:
+                if st.button('📊 Analyze Directory'):
+                    self.render_analysis(directory)
+            
+            with col2:
+                if st.button('📁 Organize Files'):
+                    with st.spinner('Organizing files...'):
+                        success, message = self.organizer.organize_files(directory)
+                        if success:
+                            st.success(message)
+                            # Show analysis after organization
+                            self.render_analysis(directory)
+                            # Log the organization action
+                            self.security.log_access(directory, 'organize', 'user')
+                        else:
+                            st.error(message)
+            
+            with col3:
+                if st.button('🔍 Verify Directory Integrity'):
+                    with st.spinner('Verifying files...'):
+                        st.write('File Integrity Report')
+                        for root, _, files in os.walk(directory):
+                            for file in files:
+                                file_path = os.path.join(root, file)
+                                hash_result = self.security.verify_file_integrity(file_path)
+                                if hash_result:
+                                    st.success(f'✅ {file}: Integrity check passed')
+                                    # Log the verification action
+                                    self.security.log_access(file_path, 'verify', 'user')
+
+                                else:
+                                    st.error(f'❌ {file}: Integrity check failed')
         
-        # Handle button actions
-        if organize_button:
-            self.handle_organization(folder_path, flatten_structure, show_hidden)
-        
-        if undo_button:
-            self.handle_undo()
+        elif directory:
+            st.error('Directory does not exist')
         
         # Footer
         st.markdown("---")
@@ -395,3 +487,4 @@ class StreamlitUI:
                 </p>
             </div>
         """, unsafe_allow_html=True)
+    
