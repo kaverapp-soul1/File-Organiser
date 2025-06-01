@@ -1,4 +1,4 @@
-from ..interface.Streamlit import StreamlitUI
+from   app.interface.Streamlit import StreamlitUI
 import streamlit as st
 import logging
 import sys

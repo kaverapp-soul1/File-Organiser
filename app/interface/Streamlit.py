@@ -6,7 +6,7 @@ from pathlib import Path
 import time
 
 from scripts.FileOrganizer import FileOrganizer
-from core.FileUtils import FileUtils
+from app.core.FileUtils import FileUtils
 
 from typing import Tuple
 

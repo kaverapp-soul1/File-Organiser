@@ -1,6 +1,6 @@
 class FileOrganizerConfig:
     """Configuration constants for the file organizer."""
-    LOG_FILE = "logger_json//file_organizer_log.json"
+    LOG_FILE = "logs//file_organizer_log.json"
     DATE_FORMAT = "%Y-%m-%d_%H-%M-%S"
     HASH_BLOCK_SIZE = 65536
     

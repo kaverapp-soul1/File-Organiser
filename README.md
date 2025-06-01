@@ -11,3 +11,25 @@ Add file type detection by content (magic numbers) instead of just extensions
 - Add export functionality for organization reports
 
 - Add visualization charts for file distribution
+
+
+
+this is my code structure-->
+file_organiser/
+    app/
+        config/
+            FileOrganiserConfig.py
+        core/
+            FileLogger.py
+            FileUtils.py
+        interface/
+            Streamlit.py
+        __init__.py
+    logs/
+        file_organiser_log.json
+    scripts/
+        FileOrganiser.py
+    server/
+        main.py
+    README.md
+    requirement.txt

@@ -1,0 +1,17 @@
+{
+    "moves": [],
+    "errors": [
+        {
+            "timestamp": "2025-05-31_08-55-05",
+            "source": "d://dummy_testing",
+            "destination": null,
+            "error": "Error finding duplicates: 'FileOrganizer' object has no attribute '_all_files'"
+        },
+        {
+            "timestamp": "2025-05-31_08-55-33",
+            "source": "d://dummy_testing",
+            "destination": null,
+            "error": "Error finding duplicates: 'FileOrganizer' object has no attribute '_all_files'"
+        }
+    ]
+}

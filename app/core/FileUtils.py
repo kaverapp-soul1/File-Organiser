@@ -2,7 +2,7 @@ import os
 
 from pathlib import Path
 import hashlib
-from config.FileOrganiserConfig import FileOrganizerConfig
+from app.config.FileOrganiserConfig import FileOrganizerConfig
 
 class FileUtils:
     """Utility functions for file operations."""

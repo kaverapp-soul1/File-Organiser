@@ -1,4 +1,4 @@
-from config.FileOrganiserConfig import FileOrganizerConfig
+from app.config.FileOrganiserConfig import FileOrganizerConfig
 import json
 import os
 from datetime import datetime
