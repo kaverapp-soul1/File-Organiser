@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.exe
+*.dll
+*.so
+*.a
+*.o
+*.obj
+*.lib
+*.tmp
+*.bak
+*.swp
+*.swo
