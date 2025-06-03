@@ -3,6 +3,6 @@ pandas==2.0.3
 plotly==5.15.0
 python-dotenv==1.0.0
 typing-extensions==4.7.1
-cryptography==45.0.3
+cryptography
 pywin32==306; sys_platform == 'win32'
 python-jose==3.3.0
